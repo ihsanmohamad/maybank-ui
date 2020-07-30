@@ -40,16 +40,16 @@ header {
   list-style: none;
 }
 
-.carousal ul li .dot {
-  fill: black;
+.carousal ul li .carousal-indicators {
+  fill: grey;
   width: 10px;
   height: 10px;
   z-index: 5;
   margin: 0 .2em;
 }
 
-.carousal ul li:first-child .dot {
-  fill: grey;
+.carousal ul li:first-child .carousal-indicators {
+  fill: black;
 }
 
 .logo {
