@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+header {
+  background-color: #FFC83D;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: .2em .2em;
+}
+
+.carousal img {
+  max-width: 100%;
+  max-height: auto;
+}
+
+.carousal ul {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: 0 auto 0 -40px;
+}
+
+.carousal ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+.carousal ul li .dot {
+  fill: black;
+  width: 10px;
+  height: 10px;
+  z-index: 5;
+  margin: 0 .2em;
+}
+
+.carousal ul li:first-child .dot {
+  fill: grey;
+}
+
+.logo {
+  width: 130px;
+  margin: .6em;
+}
+
+.menu {
+  margin: 1em 5px 0 0;
+}
+
+.hide-desktop {
+  display: none;
+}
+
+.hide-mobile {
+  display: none;
+}
+
+nav ul {
+  position: fixed;
+  width: 100%;
+  list-style: none;
+  text-align: left;
+  right: 0;
+  height: 100%;
+  padding: 0;
+  background-color: #FFC83D;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 1024px) {
+  header {
+    padding: 0 10%;
+  }
+  .container {
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=main.css.map */
